@@ -3,20 +3,18 @@
 This project demonstrates a basic ray-tracing simulation using SDL2. It visualizes rays originating from a light source, checks for intersections with circular objects, and displays the result. Below is a detailed explanation of the code and the mathematical concepts involved, including relevant formulas.
 
 ---
-## Check out the simulation in action:
-![Simulation in Action](./RayTracing 2024-12-29 22-17-01.gif)
 
 
 ## Compilation and Execution
 
 ### Compilation
 ```bash
-g++ -o RayTracing main.cpp -lSDL2 -lm
+ g++ -Llib -o ray raytracing.cpp -lSDL2
 ```
 
 ### Execution
 ```bash
-./RayTracing
+./ray.exe
 ```
 
 ---
